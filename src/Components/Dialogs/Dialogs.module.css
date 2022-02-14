@@ -9,10 +9,10 @@
 
 
 .dialog {
-
+    color: red;
 }
 
-.dialog.active {
+.active {
     color: gold;
 }
 
