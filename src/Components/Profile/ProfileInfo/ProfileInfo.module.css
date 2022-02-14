@@ -1,0 +1,34 @@
+
+.item {
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ava {
+    width: 100px;
+  }
+  
+  
+  .name {
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about {
+    margin-left: 15px;
+  }
+  
+  
+  
+  
+  .link {
+    color: red;
+    font-size: 25px;
+  }

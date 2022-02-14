@@ -1,0 +1,14 @@
+.nav {
+    grid-column: span 1;
+    grid-row: span 5;
+    background: green;
+  }
+  
+
+  .item {
+      color: white;
+  }
+
+ .active {
+      color: gold;
+  }

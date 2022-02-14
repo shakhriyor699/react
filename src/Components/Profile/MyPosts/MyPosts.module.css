@@ -1,0 +1,37 @@
+
+
+.ava {
+  width: 100px;
+}
+
+
+.post__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.post__new {
+  width: 500px;
+  background: gray;
+  height: 150px;
+  resize: none;
+ 
+}
+
+.post__new::placeholder {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.addPost {
+  display: flex;
+  flex-direction: column;
+}
+
+.addPost button {
+  width: 200px;
+  display: block;
+  margin-top: 15px;
+}

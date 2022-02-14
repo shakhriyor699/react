@@ -1,0 +1,14 @@
+.item {
+    color: green;
+    
+  }
+
+  .ava {
+    width: 100px;
+  }
+
+
+  .item__wrapper {
+      display: flex;
+      align-items: center;
+  }
