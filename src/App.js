@@ -7,7 +7,7 @@ import News from './Components/News/News';
 import Music from './Components/Music/Music';
 import './App.css';
 import Settings from './Components/Settings/Settins';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 function App(props) {
   return (
@@ -16,8 +16,8 @@ function App(props) {
         <Nav links={props.appState}/>
         <div className='app-wrapper-content'>
           <Routes>
-            <Route path="/profile/*" element={<Profile newData={props.appState} addPost={props.addPost} updateNewPost={props.updateNewPost}/>}/>
-            <Route path='/dialogs/*' element={<Dialogs newData={props.appState} addMessage={props.addMessage} updateMessage={props.updateMessage}/>}/> {/* для того чтобы переходить по страницам */}
+            <Route path="/profile/*" element={<Profile newData={props.appState} dispatch={props.dispatch} />}/>
+            <Route path='/dialogs/*' element={<Dialogs newData={props.appState} dispatch={props.dispatch}/>}/> {/* для того чтобы переходить по страницам */}
             <Route path="/news" element={<News/>}/>
             <Route path="/music" element={<Music/>}/>
             <Route path="/settings" element={<Settings/>}/>
